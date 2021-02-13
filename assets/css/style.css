@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+/* apply styles to header */
+header {
+    padding: 20px 35px;
+    background-color: #024e76;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 48px;
+    color: #6495ED;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 100%;
+}
+.primary-border {
+    border-color: #024e76;
+}
+
+/*WORK PORTFOLIO STYLES START */
+.run-buddy h3 {
+    font-size: 20px;
+    padding-bottom: 8px;
+    color:#6495ED;
+    text-align: left;
+}
+.run-buddy img {
+    width: 55%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.secondary-items h3 {
+    font-size: 20px;
+    padding-bottom: 8px;
+    color:#6495ED;
+    text-align: center;
+}
+.secondary-items img {
+    width: 30%;
+    float: center;
+    border-radius: 10px;
+}
+
+/*MY INTERESTS STYLES START */
+.travel h3 {
+    font-size: 20px;
+    padding-bottom: 8px;
+    color:#6495ED;
+    text-align: left;
+}
+.travel p {
+    color: #024e76;
+    float: left;
+}
+.travel img {
+    float: right;
+    width: 20%;
+    border-radius: 10px;
+}
+
+/*CONTACT ME STYLES START*/
+.contact img {
+    float: left;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.contact p {
+    color: #024e76;
+    float: right;
+}

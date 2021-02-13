@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Shy's Professional Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Shayana (Shy) Gois</a></h1>
-        
-
+        <h1>
+            <a href="index.html">Shayana (Shy) Gois</a>
+        </h1>
         <nav>
 
             <!--Unordered list element-->
@@ -27,20 +28,27 @@
     </header>
     
     <!--"Work Portfolio" section-->
-    <section>
-        <div>
-        <h2>Work Portoflio</h2>
+    <section id="work-portfolio">
+    <div>
+        <h2 class="section-title primary-border">
+            Work Portfolio
+        </h2>
+    </div>
 
+    <!--first portfolio item (should be biggest)-->
+        <div class="run-buddy">
         <h3>Run Buddy Page</h3>
         <a href="https://shygois.github.io/run-buddy/" target="_blank"> 
             <img src="./assets/images/runbuddy.jpg" alt="Run Buddy Page"></a>
         </div>
-
-        <div>
+        
+    <!--second and third portfolio items-->
+        <div class="secondary-items">
         <h3>Horiseon Marketing</h3>
         <a href="https://shygois.github.io/portfolio-page/" target="_blank">
             <img src="./assets/images/horiseonmarketing.jpg" alt="Horiseon Marketing"></a>
         
+    
         <h3>GitHub Profile</h3>
         <a href="https://github.com/Shygois" target="_blank">
             <img src="./assets/images/github.jpg" alt="GitHub Profile"></a>
@@ -50,22 +58,30 @@
     
 
     <!--"My Interests" section-->
-    <h2>My Interests</h2>
+    <section id="my-interests">
+    <h2 class="section-title primary-border">
+        My Interests
+    </h2>
     <article>
-        <div>
+        <div class="travel">
             <h3>I love traveling!</h3>
-            <p>Exploring new places, new food, new cultures, and new people is definitely at the top of my interests list. Whether it's exploring in my hometown (Bay Area, CA), or traveling across the world, I am up for any adventure. Check out my travel instagram for some awesome views!</p>
+            <p>Exploring new places, new food, new cultures, and new people are definitely at the top of my interests list. Whether it's exploring in my hometown (Bay Area, CA), or traveling across the world, I am up for any adventure. Check out my travel instagram for some awesome views!</p>
             <a href="https://www.instagram.com/shygoaroundtheworld/" target="_blank">
             <img src="./assets/images/travel.jpg" alt="Burney Falls"></a>
         </div>
     </article>
+    </section>
 
     <!--"Contact Me" section-->
-    <div>
-    <h2>Contact Me</h2>
+    <section id="contact-me">
+    <h2 class="section-title primary-border">
+        Contact Me
+    </h2>
+    <div class="contact">
     <img src="./assets/images/Shayana_Gois_web.jpg" alt="Shayana (Shy) Gois" />
     <p>If you like what you see and are interested in working with me, please don't hesitate to reach out.</p>
-    <p>Email me: shayana.gois@att.net or Call me: 925-768-1808</p>
-    </div>  
+    <p>Email me: <a href="mailto:shayana.gois@att.net">shayana.gois@att.net</a> or Call me: 925-768-1808</p>
+    </div>
+    </section>
 </body>
 </html>
