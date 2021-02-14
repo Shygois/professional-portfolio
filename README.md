@@ -10,7 +10,7 @@ Contact me section was giving me a bit of trouble. I wasn't able to get my image
 
 I used bootstrap style sheet and their bundle sheet to help me achieve what I wanted in a faster and more efficent way. I added viewports and media queries to make sure my page looked good from all screens types. 
 
-Screenshot link: https://github.com/Shygois/professional-portfolio/issues/1#issue-808018121
+Screenshot link: https://user-images.githubusercontent.com/77821135/107885670-82a3bb80-6eb0-11eb-9d3c-bde855c3ba87.jpg
 
 Deployed link: https://shygois.github.io/professional-portfolio/
 
