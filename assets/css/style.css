@@ -39,14 +39,13 @@ header nav ul li a {
 }
 
 section {
-    padding: 60px;
+    padding: 40px;
 }
 
 .section-title {
     font-size: 48px;
     color: #6495ED;
     border-bottom: 3px solid;
-    padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 100%;
@@ -56,27 +55,19 @@ section {
 }
 
 /*WORK PORTFOLIO STYLES START */
-.run-buddy h3 {
+.portfolio-name {
     font-size: 20px;
     padding-bottom: 8px;
     color:#6495ED;
-    text-align: left;
 }
 .run-buddy img {
-    width: 55%;
+    width: 100%;
     float: left;
-    margin-right: 20px;
     border-radius: 10px;
 }
 
-.secondary-items h3 {
-    font-size: 20px;
-    padding-bottom: 8px;
-    color:#6495ED;
-    text-align: center;
-}
 .secondary-items img {
-    width: 30%;
+    width: 100%;
     float: center;
     border-radius: 10px;
 }
@@ -86,16 +77,18 @@ section {
     font-size: 20px;
     padding-bottom: 8px;
     color:#6495ED;
-    text-align: left;
+    text-align: center;
 }
 .travel p {
     color: #024e76;
-    float: left;
 }
-.travel img {
-    float: right;
-    width: 20%;
+.travel-img {
+    width: 30%;
     border-radius: 10px;
+}
+.card-travel {
+    background-color: transparent;
+    border: 0;
 }
 
 /*CONTACT ME STYLES START*/
