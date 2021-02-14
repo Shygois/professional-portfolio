@@ -73,13 +73,13 @@ section {
 }
 
 /*MY INTERESTS STYLES START */
-.travel h3 {
+.card-title {
   font-size: 20px;
   padding-bottom: 8px;
-  color: #6495ed;
   text-align: center;
+  color: #024e76;
 }
-.travel p {
+.card-text {
   color: #024e76;
 }
 .travel-img {
