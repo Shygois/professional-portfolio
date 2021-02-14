@@ -92,14 +92,13 @@ section {
 }
 
 /*CONTACT ME STYLES START*/
-.contact img {
-    width: 40%;
+.contact-row img {
+    width: 50%;
     border-radius: 10px;
 }
 
-.contact p {
+.contact-row p {
     color: #024e76;
-    justify-content: 100%;
 }
 
 @media screen and (max-width: 980px) {
